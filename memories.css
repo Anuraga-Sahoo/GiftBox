@@ -1,0 +1,324 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container{
+  background-color: whitesmoke;
+ /* width: 20%; */
+ height: auto;
+ width: 20rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ box-shadow: 0 0 10px black;
+ padding-top: 10px;
+ padding-bottom:10px ;
+ position: absolute;
+ transform: translate(-50%, -50%);
+}
+.container:hover{
+  box-shadow: 0 0 20px black;
+  cursor: grab;
+
+}
+.text{
+  margin-top: 10px;
+  width: 18rem;
+  text-align: center;
+}
+img{
+  width: 15rem;
+  border-radius: 5%;
+  object-fit: content;
+}
+
+.p1{
+  top: 20rem;
+  right: 10px;
+}
+.p2{}
+.p3{
+  top: 20rem;
+  left: 55px;
+  /* height: auto; */
+}
+.p4{
+  top: 25rem;
+  left: 10rem;
+}
+.p5{
+  top: 25rem;
+  left: 15rem;
+}
+.p6{
+  top: 35rem;
+  left: 15rem;
+}
+
+.p7{
+  top: 45rem;
+  left: 10rem;
+}
+.p8{
+  top: 20rem;
+  left: 25rem;
+}
+.p9{
+  top: 20rem;
+  left: 50rem;
+}
+.p10{
+  top: 32rem;
+  right: 45rem;
+}
+
+.p11{
+  bottom: 32rem;
+  right: 45rem;
+}
+.p13{
+  top: 3rem;
+  right: 60rem;
+}
+.p14{
+  top: 3rem;
+  right: 50rem;
+}
+.p15{
+  top: 1rem;
+  left: 90rem;
+}
+.p16{
+  top: 6rem;
+  left: 80rem;
+}
+.p17{
+  top: 16rem;
+  left: 70rem;
+}
+.p18{
+  top: 11rem;
+  left: 65rem;
+}
+.p19{
+  top: 25rem;
+  left: 89rem;
+}
+.p20{
+  top: 35rem;
+  left: 99rem;
+}
+.p21{
+  top: 35rem;
+  left: 77rem;
+}
+.p22{
+  top: 39rem;
+  left: 82rem;
+}
+.p23{
+  top: 39rem;
+  left: 48rem;
+}
+.p24{
+  top: 39rem;
+  left: 65rem;
+}
+.p25{
+  top: 1rem;
+  left: 45rem;
+}
+.p26{
+  top: 15rem;
+  left: 35rem;
+}
+.p27{
+  top: 29rem;
+  left: 35rem;
+}
+.p28{
+  top: 29rem;
+  left: 15rem;
+}
+.p29{
+  top: 20rem;
+  left: 15rem;
+}
+.p30{
+  top: 39rem;
+  right: 10rem;
+}
+.p31{
+  top: 29rem;
+  right: 80rem;
+}
+.p32{
+  top: 19rem;
+  right: 73rem;
+}
+.p33{
+  top: 9rem;
+  right: 20rem;
+}
+.p34{
+  top: 13rem;
+  right: 16rem;
+}
+.p35{
+  top: 49rem;
+  right: 35rem;
+}
+.p36{
+  top: 39rem;
+  right: 20rem;
+}
+.p37{
+  top: 29rem;
+  right: 31rem;
+}
+.p38{
+  top: 9rem;
+  right: 18rem;
+}
+.p39{
+  top: 3rem;
+  right: 15rem;
+}
+.p40{
+  top: 29rem;
+  right: 50rem;
+}
+.p41{
+  top: 33rem;
+  right: 60rem;
+}
+.p42{
+  top: 23rem;
+  right: 90rem;
+}
+.p43{
+  top: 33rem;
+  right: 92rem;
+}
+.p44{
+  top: 23rem;
+  right: 80rem;
+}
+.p45{
+  top: 30rem;
+  right: 51rem;
+}
+.p46{
+  top: 20rem;
+  right: 16rem;
+}
+.p47{
+  top: 13rem;
+  right:46rem;
+}
+.p48{
+  top: 24rem;
+  right: 44rem;
+}
+.p49{
+  top: 14rem;
+  right: 14rem;
+}
+.p50{
+  top: 7rem;
+  right: 6rem;
+}
+.p71{
+  top: 7rem;
+  right: 6rem;
+}
+.p72{
+  top: 17rem;
+  right: 15rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.blur{
+  position: absolute;
+  height: 100rem;
+  width: 100%;
+  background-color: rgb(31, 131, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert{
+  background-color: transparent;
+  box-shadow: 0 0 6px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 30rem;
+  height: 15rem;
+  width: 30rem;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.alertMessage{
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: blueviolet;
+}
+#btn{
+  height: 2.5rem;
+  width: 10rem;
+  background-color: rgb(143, 73, 175);
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.6rem;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Animation blure */
+
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeOutLeft {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  }
+  @keyframes fadeOutLeft {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  }
