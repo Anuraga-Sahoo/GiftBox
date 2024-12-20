@@ -108,7 +108,7 @@ function playMusic(){
 
 if(conf){
   playMusic()
-  setInterval(playMusic, 60000)
+  setInterval(playMusic, 1000)
 }
 
 
