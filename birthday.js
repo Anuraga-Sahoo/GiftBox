@@ -33,7 +33,7 @@ function playMusic() {
 }
 
 // Automatically play music when the page loads
-let myMusicInterval  = setInterval(playMusic, 2000)
+let myMusicInterval  = setInterval(playMusic, 1000)
 
 // ----------------👉----------
 
