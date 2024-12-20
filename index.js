@@ -105,7 +105,7 @@ function playMusic(){
 
 playMusic()
 
-setInterval(playMusic, 60000)
+setInterval(playMusic, 1000)
 
 // -----------------------------------
 
