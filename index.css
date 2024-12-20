@@ -96,3 +96,39 @@ body{
 .txt1, .txt2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.bg{
+  display: none;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    transform: rotate(90deg);
+    overflow: hidden;
+  }
+  .background{
+    background: #000;
+    overflow: hidden;
+    height: 100vh;
+    width: 60rem;
+  }
+  .bg{
+    display: block;
+    height: 30rem;
+    width: 50rem;
+  }
+  .box{
+    position: absolute;
+    top: 5rem;
+  }
+  .box2{
+    position: absolute;
+    top: 5rem;
+    left: 35rem;
+
+  }
+
+}
