@@ -130,5 +130,27 @@ body{
     left: 35rem;
 
   }
+  .msg1, .msg2{
+    display: flex;
+  }
+  .txt2, .txt1{
+    font-size: 0.6rem;
+  }
+  .msg1{
+    background-color: blue;
+    position: absolute;
+    top: 22rem;
+    left: 6rem;
+  }
+
+  .msg2{
+    position: relative;
+    /* top: 22rem;
+    left: 45rem; */
+    top: 2rem;
+    left: 5rem;
+    /* bottom: 1rem; */
+    background-color: red;
+  }
 
 }
