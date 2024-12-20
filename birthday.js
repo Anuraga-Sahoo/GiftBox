@@ -1,6 +1,9 @@
 let music1 = document.getElementById("myAudio");
 let birthDaySong = document.getElementById('myBirthDayAudio')
 let music2 = document.getElementById("music");
+let pop = document.getElementById('pop')
+
+
 
 let giftBox = document.getElementById('box')
 let messageBox = document.getElementById('message')
@@ -16,6 +19,7 @@ let btnClick = 0
 // ----------------flex message----------
 setTimeout(()=>{
    alertBox.style.display = "flex"
+   playm()
 },8000)
 
 
@@ -34,7 +38,7 @@ let myMusicInterval  = setInterval(playMusic, 2000)
 // ----------------👉----------
 
 giftBox.addEventListener('click',function handleClick() {
- 
+  playm()
   messageBox.style.display = "flex"
   alertBox.style.display = "none"
 
@@ -48,6 +52,8 @@ giftBox.addEventListener('click',function handleClick() {
 // -------------Play music function--------------
 
   btn.addEventListener("click", () => {
+  playm()
+
   if( btnClick == 1 ){
 
     messageBox.style.display = "none"
@@ -112,7 +118,13 @@ giftBox.addEventListener('click',function handleClick() {
     // })
   // }
 
+  function playm(){
+    pop.play()
+    .then(()=>{
+      console.log("pop success fully")
+    })
+    .catch((e)=> console.log("Error",e))
+    }
 
-
-
+    
 

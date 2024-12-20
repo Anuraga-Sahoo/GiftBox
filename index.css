@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.background{
+  background: url("./house.png");
+  height: 50rem;
+  width: 100%;
+  background-color: black;
+
+}
+.tree{
+  position: absolute;
+  height: 20rem;
+  top: 30rem;
+  left: 40rem;
+}
+.snow{
+  z-index: 1;
+
+}
+.snow, .snow2{
+  height: 45rem;
+  width: 50%;
+  
+}
+.snow2{
+  position: absolute;
+  left: 50rem;
+  
+}
+.line, .line2{
+  background-color: white;
+  height: 12rem;
+  width: 0.6rem;
+  position: absolute;
+  left: 10rem;
+  box-shadow: 0 0 10px black;
+ 
+}
+.box, .box2{
+  background-color: white;
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  top: 10rem;
+  left: 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url("./71.jpg"); */
+  box-shadow: 0 0 10px black;
+  z-index: 1;
+}
+.img{
+  height: 12rem;
+  width: 12rem;
+  border-radius: 10px;
+}
+
+.box2{
+ left: 73rem;
+
+}
+.line2{
+  left: 80rem;
+}
+.msg1, .msg2{
+  padding: 10px;
+  width: fit-content;
+  height: 1rem;
+  background-color: white;
+  display: none;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 9px rgb(86, 82, 82);
+}
+.msg1 {
+  position: absolute;
+  top: 15rem;
+  left: 20rem;
+}
+.msg2{
+  position: absolute;
+  top: 14rem;
+  right: 25rem;
+  z-index: 1;
+}
+.txt1, .txt2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
