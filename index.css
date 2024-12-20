@@ -90,7 +90,7 @@ body{
 .msg2{
   position: absolute;
   top: 14rem;
-  right: 25rem;
+  right:25rem;
   z-index: 1;
 }
 .txt1, .txt2{
@@ -107,18 +107,20 @@ body{
   body {
     background-color: lightblue;
     transform: rotate(90deg);
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* height: 100vh; */
   }
   .background{
     background: #000;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100vh;
-    width: 60rem;
+    width: 100rem;
   }
   .bg{
     display: block;
     height: 30rem;
     width: 50rem;
+    
   }
   .box{
     position: absolute;
@@ -128,6 +130,7 @@ body{
     position: absolute;
     top: 5rem;
     left: 35rem;
+    /* display: none; */
 
   }
   .msg1, .msg2{
@@ -135,6 +138,9 @@ body{
   }
   .txt2, .txt1{
     font-size: 0.6rem;
+  }
+  .txt2{
+
   }
   .msg1{
     background-color: blue;
@@ -144,13 +150,15 @@ body{
   }
 
   .msg2{
-    position: relative;
-    /* top: 22rem;
-    left: 45rem; */
-    top: 2rem;
-    left: 5rem;
+    position: absolute;
+    /* /* top: 22rem; */
+    /* left: 40rem ; */
+    top: 23rem; 
+    width: fit-content;
+    /*left: 5rem; */
     /* bottom: 1rem; */
     background-color: red;
+    z-index: 2;
   }
 
 }
