@@ -7,7 +7,8 @@ let txt1 = document.getElementById('txt1')
 let msg2 = document.getElementById('msg2')
 let txt2 = document.getElementById('txt2')
 
-alert("Are you ready to continue !")
+
+let conf = confirm("Are you ready to continue !")
 
 
 function message1(){
@@ -105,9 +106,12 @@ function playMusic(){
 })
 }
 
-playMusic()
+if(conf){
+  playMusic()
+  setInterval(playMusic, 60000)
+}
 
-setInterval(playMusic, 1000)
+
 
 // -----------------------------------
 
